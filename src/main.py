@@ -58,7 +58,7 @@ if __name__ == "__main__":
         "-o",
         required=False,
         help="The file to write the obfuscated code (defaults to [input]_obfuscated.bat)",
-        metavar="PATH",
+        metavar="FILENAME",
     )
     args = parser.parse_args()
 
